@@ -119,9 +119,25 @@ async def repeat(rep):
 @register(outgoing=True, pattern="^.repo$")
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
-    await wannasee.edit(
-        "**⚡𝘈𝘭𝘱𝘩𝘢 𝘜𝘴𝘦𝘳𝘣𝘰𝘵⚡**\n✘ 𝘙𝘦𝘱𝘰 [𝘈𝘭𝘱𝘩𝘢](https://github.com/AftahBagas/Alpha_)\n✘ 𝘗𝘦𝘮𝘪𝘭𝘪𝘬 [𝘈𝘭𝘧𝘢𝘳𝘦𝘻𝘢](https://t.me/kanjengingsun)\n"
+    parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
+            [ 
+                
+                [
+                    InlineKeyboardButton(
+                        "Group Support", url="https://t.me/teamsquaduserbotsupport"
+                    ),
+                    InlineKeyboardButton(
+                        "Pemilik", url="https://t.me/kanjengingsun"
+                    )
+                ],[ 
+                    InlineKeyboardButton(
+                        "Repo", url="https://t.me/mikorobotbot?startgroup=true"
+                    )]
+            ]
+        ),
+     disable_web_page_preview=True
     )
+        
 
 
 @register(outgoing=True, pattern="^.raw$")
