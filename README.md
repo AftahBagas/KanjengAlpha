@@ -61,7 +61,7 @@ Repo Yang Dibuat [Kanjeng Ingsun](https://t.me/kanjengIngsun) Dari Berbagai Repo
 
 Deploy to Heroku
 
-<p><a href="https://heroku.com/deploy?templatehttps://github.com/AftahBagas/Alpha_"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
+<p><a href="https://heroku.com/deploy?templatehttps://github.com/AftahBagas/kanjengAlpha"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
 
 
 ## Groups Support
